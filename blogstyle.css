@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: grey;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: beige;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    margin-left: 20px;
+}
+
+footer {
+    margin-left: 20px;
+}
+
+.b1 {
+    width: 400px;
+    height: 500px;
+}
+
+.b2 {
+    width: 400px;
+    height: 500px;
+}
+
+li {
+    font-weight: bold;
+}
