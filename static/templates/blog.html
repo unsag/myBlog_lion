@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>나의 블로그</title>
-    <link rel="stylesheet" href="blogstyle.css" />
+    <link
+      href="{{ url_for('static',path='css/blogstyle.css') }}"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/2b7b5f2141.js"
       crossorigin="anonymous"
